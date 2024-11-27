@@ -1,0 +1,87 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 25 nov. 2023, 21:51:05
+    Author     : dorsa
+*/
+
+
+
+.root-container {
+    -fx-background-color: #ffcccc;
+    -fx-padding: 20px;
+}
+
+.container {
+    -fx-background-color: #ffffff;
+    -fx-padding: 15px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+}
+
+.button {
+    -fx-min-width: 120px; /* Largeur minimale */
+    -fx-min-height: 40px; /* Hauteur minimale */
+    /* Autres propriétés de style... */
+}
+
+/* Ajoutez d'autres styles au besoin */
+.formulaire {
+    -fx-padding: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-alignment: center;
+    -fx-max-width: 300px;
+    
+    -fx-background-color: #ffcccc ; /* Couleur de fond du formulaire */
+}
+
+/* Style pour centrer les boutons horizontalement */
+.buttons-container {
+    -fx-spacing: 10; /* Espacement entre les boutons */
+    -fx-alignment: center; /* Centrer horizontalement */
+    
+}
+
+/* Style pour les couleurs des boutons */
+.button-inscription {
+    -fx-background-color: #32CD32;/* Couleur Coral */
+    -fx-text-fill: white; /* Couleur du texte en blanc */
+}
+
+.button-modifier {
+    -fx-background-color: #4682B4; /* Couleur SteelBlue */
+    -fx-text-fill: white; /* Couleur du texte en blanc */
+}
+
+.button-mise-a-jour {
+    
+    -fx-text-fill: white; /* Couleur du texte en blanc */
+     -fx-background-color: #FF6347;
+}
+
+.custom-text-field {
+    -fx-border-color: #5096bc; /* Couleur de la bordure */
+    -fx-border-width: 1px; /* Largeur de la bordure */
+    -fx-border-radius: 3px; /* Rayon des coins de la bordure */
+    -fx-background-color: #ffffff;
+}
+.root {
+    -fx-background-color: #cccccc; /* Remplacez ceci par la couleur de fond que vous souhaitez */
+}
+.table-view {
+    -fx-background-color: #cccccc; /* Couleur de fond pour le tableau */
+    -fx-border-color: #cccccc; /* Couleur de la bordure du tableau */
+}
+.label-custom {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-padding: 5px;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+}
